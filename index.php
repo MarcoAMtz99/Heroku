@@ -35,7 +35,7 @@
 					<nav id="menu">
 						<ul>
 							<li>
-								<a href="index.html">Inicio</a>
+								<a href="/">Inicio</a>
 							</li>
 							<li>
 								<a href="crear.html">Crear</a>
