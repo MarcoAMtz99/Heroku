@@ -1,7 +1,45 @@
+<?php	
 
-		<?php
+echo <<<EOT
 
-if(isset($_GET['id'])){
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>API</title>
+</head>
+<body>
+	<div id="BoxForm">
+		<h1>Guitarras API</h1>
+
+		
+		
+		
+		
+		<form method="get" action="">
+		<input type="text" name="id"placeholder="id">
+		<!-- <input type="text" name="phone"placeholder="Numero">
+		<input type="text" name="adress" placeholder="Direccion">
+		<input type="text" name="comment" placeholder="Comentario">
+		<input type="submit" name="registrar" value="registrar"> -->
+
+		<button type type="submit" name="registrar">Enviar</button>
+		</form>	
+	</div>
+
+	<h2>Hola amigos bolita este es un cambio</h2>
+
+	
+	
+</body>
+</html>
+?>
+
+EOT;
+<?php
+
+	if(isset($_GET['id'])){
 	$id = $_GET['id'];
 	$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/".$id ;
 	/*  echo "$url"; */
@@ -48,25 +86,5 @@ if(isset($_GET['id'])){
 
 
 ?>
-
-		
-		<form method="get" action="">
-		<input type="text" name="id"placeholder="id">
-		<!-- <input type="text" name="phone"placeholder="Numero">
-		<input type="text" name="adress" placeholder="Direccion">
-		<input type="text" name="comment" placeholder="Comentario">
-		<input type="submit" name="registrar" value="registrar"> -->
-
-		<button type type="submit" name="registrar">Enviar</button>
-		</form>	
-	</div>
-
-	<h2>Hola amigos bolita este es un cambio</h2>
-
-	
-	
-</body>
-</html>
-
 
 
