@@ -9,36 +9,7 @@
 	<div id="BoxForm">
 		<h1>Guitarras API</h1>
 
-
-		
-		<form method="get" action="">
-		<input type="text" name="id"placeholder="id">
-		<!-- <input type="text" name="phone"placeholder="Numero">
-		<input type="text" name="adress" placeholder="Direccion">
-		<input type="text" name="comment" placeholder="Comentario">
-		<input type="submit" name="registrar" value="registrar"> -->
-
-		<button type type="submit" name="registrar">Enviar</button>
-		</form>	
-	</div>
-
-	<h2>Hola amigos bolita este es un cambio</h2>
-
-	<!-- <div id="BoxSerch">
-		<form method="post" action="blank">
-			<h2>buscar</h1>
-			<input type="text" name="buscar">
-			<input type="submit" name="buscar">
-			
-		</form>
-		
-	</div> -->
-	
-</body>
-</html>
-
-
-<?php
+		<?php
 
 	if(isset($_GET['id'])){
 		$id = $_GET['id'];
@@ -87,5 +58,61 @@
 
 
 ?>
+		<header id="header">
+				<div class="center">
+					<!-- Logo-->
+						<img src="assets/images/logo.png" class="app-logo" alt="Logotipo"/>
+						<span id="brand">
+							<strong>Guitarras</strong>API
+						</span>
+					<!-- Menu-->
+
+					<nav id="menu">
+						<ul>
+							<li>
+								<a href="/">Inicio</a>
+							</li>
+							<li>
+								<a href="crear.html">Crear</a>
+							</li>
+							<li>
+								<a href="articles.html">Modificar</a>
+							</li>
+							
+						</ul>
+					</nav>
+					<!-- Limpiar floats-->
+					<div class="clearfix"></div>
+				</div>
+				
+			</header>
+
+		
+		<form method="get" action="">
+		<input type="text" name="id"placeholder="id">
+		<!-- <input type="text" name="phone"placeholder="Numero">
+		<input type="text" name="adress" placeholder="Direccion">
+		<input type="text" name="comment" placeholder="Comentario">
+		<input type="submit" name="registrar" value="registrar"> -->
+
+		<button type type="submit" name="registrar">Enviar</button>
+		</form>	
+	</div>
+
+	<h2>Hola amigos bolita este es un cambio</h2>
+
+	<!-- <div id="BoxSerch">
+		<form method="post" action="blank">
+			<h2>buscar</h1>
+			<input type="text" name="buscar">
+			<input type="submit" name="buscar">
+			
+		</form>
+		
+	</div> -->
+	
+</body>
+</html>
+
 
 
