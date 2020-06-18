@@ -41,18 +41,25 @@ echo <<<EOT
 				</div>
 				
 			</header>
+			<div class="clearfix"></div>
 		
 		
-		
-		<form method="get" action="">
-		<input type="text" name="id"placeholder="id">
-		<!-- <input type="text" name="phone"placeholder="Numero">
-		<input type="text" name="adress" placeholder="Direccion">
-		<input type="text" name="comment" placeholder="Comentario">
-		<input type="submit" name="registrar" value="registrar"> -->
+			<div class="content">
+	
+			<form method="get" action="">
+					<input type="text" name="id"placeholder="id">
+					<!-- <input type="text" name="phone"placeholder="Numero">
+					<input type="text" name="adress" placeholder="Direccion">
+					<input type="text" name="comment" placeholder="Comentario">
+					<input type="submit" name="registrar" value="registrar"> -->
+			
+					<button type type="submit" name="registrar">Enviar</button>
+					</form>	
+			
+			</div>
 
-		<button type type="submit" name="registrar">Enviar</button>
-		</form>	
+
+
 	</div>
 
 	<h2>Hola amigos bolita este es un cambio</h2>
