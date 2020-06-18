@@ -113,9 +113,11 @@ EOT;
 		   echo	"numCuerdas: ".$lat_9  ;
 		   echo "<br>";
 		   echo	"imagen: ".$lat_10  ;
-		   echo "<br>";
-		    
+		   echo "<br>";		    
 }
 ?>
+
+<img src="<?php echo $lat_10; ?>">
+
 
 
