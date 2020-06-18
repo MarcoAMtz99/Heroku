@@ -52,7 +52,7 @@
 				
 			</header>
 			<div id="slidder" class="slider-big">
-				<h1>Hola hermosa :3 </h1>
+				<h1>Hola Bienvenido </h1>
 			</div>
 			<div class="center">
 				<section id="content">
@@ -94,7 +94,7 @@
 						<h3>Buscador</h3>
 						<p>Encuentra la guitarra que quieres</p>
 						<form action="mostrar.php" method="get">
-							<input type="text" name="serch">
+							<!-- <input type="text" name="serch"> -->
 							<input type="submit" name="submit" value="Buscar">
 						</form>
 						
