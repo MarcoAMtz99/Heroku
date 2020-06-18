@@ -42,6 +42,17 @@ echo <<<EOT
 				
 			</header>
 			<div class="clearfix"></div>
+
+			<style type="text/css">
+			#content{
+				width: 70%;
+				float: left;
+				
+				min-height: 650px;
+				margin-right: 20px;
+			}
+			</style>
+
 		
 		
 			<div class="content">
@@ -121,3 +132,4 @@ EOT;
 ?>
 
 
+<div style></div>
