@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<title>API</title>
-</head>
-<body>
-	<div id="BoxForm">
-		<h1>Guitarras API</h1>
 
-		
-<?php
+		<?php
 
 if(isset($_GET['id'])){
 	$id = $_GET['id'];
@@ -60,7 +49,7 @@ if(isset($_GET['id'])){
 
 ?>
 
-		<!-- 
+		
 		<form method="get" action="">
 		<input type="text" name="id"placeholder="id">
 		<!-- <input type="text" name="phone"placeholder="Numero">
@@ -71,7 +60,7 @@ if(isset($_GET['id'])){
 		<button type type="submit" name="registrar">Enviar</button>
 		</form>	
 	</div>
- -->
+
 	<h2>Hola amigos bolita este es un cambio</h2>
 
 	
