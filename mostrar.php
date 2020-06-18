@@ -13,7 +13,34 @@ echo <<<EOT
 	<div id="BoxForm">
 		<h1>Guitarras API</h1>
 
-		
+		<header id="header">
+				<div class="center">
+					<!-- Logo-->
+						<img src="assets/images/logo.png" class="app-logo" alt="Logotipo"/>
+						<span id="brand">
+							<strong>Guitarras</strong>API
+						</span>
+					<!-- Menu-->
+
+					<nav id="menu">
+						<ul>
+							<li>
+								<a href="/">Inicio</a>
+							</li>
+							<li>
+								<a href="crear.html">Crear</a>
+							</li>
+							<li>
+								<a href="articles.html">Modificar</a>
+							</li>
+							
+						</ul>
+					</nav>
+					<!-- Limpiar floats-->
+					<div class="clearfix"></div>
+				</div>
+				
+			</header>
 		
 		
 		
