@@ -71,6 +71,10 @@ echo <<<EOT
 
 EOT;
 ?>
+
+<div style=" text-align: left;">
+
+
 <?php
 
 	if(isset($_GET['id'])){
@@ -112,10 +116,11 @@ EOT;
 		   echo "<br>";
 		   echo	"numCuerdas: ".$lat_9  ;
 		   echo "<br>";
-		   echo	"imagen: ".$lat_10  ;
+		  /*  echo	"imagen: ".$lat_10  ; */
 		   echo "<br>";		    
 }
 ?>
+</div>
 
 <img src="<?php echo $lat_10; ?>">
 
