@@ -42,20 +42,8 @@ echo <<<EOT
 				
 			</header>
 			<div class="clearfix"></div>
-
-			<style type="text/css">
-			#content{
-				width: 70%;
-				float: left;
-				
-				min-height: 650px;
-				margin-right: 20px;
-			}
-			</style>
-
 		
-		
-			<div class="content">
+			<div class="content" style="width: 70%; margin:0 auto;">
 	
 			<form method="get" action="">
 					<input type="text" name="id"placeholder="id">
@@ -73,7 +61,7 @@ echo <<<EOT
 
 	</div>
 
-	<h2>Hola amigos bolita este es un cambio</h2>
+	<h2>Hola amigos bolita aqui se muestran los datos de la guitarra</h2>
 
 	
 	
@@ -126,10 +114,8 @@ EOT;
 		   echo "<br>";
 		   echo	"imagen: ".$lat_10  ;
 		   echo "<br>";
-		   
-	 
+		    
 }
 ?>
 
 
-<div style></div>
