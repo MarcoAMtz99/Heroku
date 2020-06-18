@@ -6,8 +6,8 @@ echo <<<EOT
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<title>API</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Mostrar</title>
 </head>
 <body>
 	<div id="BoxForm">
