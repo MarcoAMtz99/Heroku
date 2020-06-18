@@ -10,7 +10,7 @@
 		<h1>Guitarras API</h1>
 
 		
-		<?php
+<?php
 
 if(isset($_GET['id'])){
 	$id = $_GET['id'];
@@ -33,7 +33,7 @@ if(isset($_GET['id'])){
 	 $lat_10 = $datos["imagen"];
 
 	 
-		   echo	"ID: ".$lat_1  ;
+		   echo	"ID: ".$lat_1  ; 
 		   echo "<br>";
 		   echo	"modelo: ".$lat_2  ;
 		   echo "<br>";
@@ -60,7 +60,7 @@ if(isset($_GET['id'])){
 
 ?>
 
-		
+		<!-- 
 		<form method="get" action="">
 		<input type="text" name="id"placeholder="id">
 		<!-- <input type="text" name="phone"placeholder="Numero">
@@ -71,7 +71,7 @@ if(isset($_GET['id'])){
 		<button type type="submit" name="registrar">Enviar</button>
 		</form>	
 	</div>
-
+ -->
 	<h2>Hola amigos bolita este es un cambio</h2>
 
 	
