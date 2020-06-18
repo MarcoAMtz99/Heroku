@@ -1,3 +1,5 @@
+<?php
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +11,7 @@
 	<div id="BoxForm">
 		<h1>Guitarras API</h1>
 
-		<?php
+		
 
 	if(isset($_GET['id'])){
 		$id = $_GET['id'];
@@ -57,7 +59,7 @@
 	}
 
 
-?>
+
 		<header id="header">
 				<div class="center">
 					<!-- Logo-->
@@ -114,5 +116,5 @@
 </body>
 </html>
 
-
+?>
 
