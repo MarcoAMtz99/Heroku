@@ -1,5 +1,3 @@
-<?php
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,82 +10,55 @@
 		<h1>Guitarras API</h1>
 
 		
+		<?php
 
-	if(isset($_GET['id'])){
-		$id = $_GET['id'];
-		$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/".$id ;
-		/*  echo "$url"; */
-		 
-		 $json = file_get_contents($url);
-		 $datos = json_decode($json,true);
-
-
-		 $lat_1 = $datos["id"];
-		 $lat_2 = $datos["modelo"];
-		 $lat_3 = $datos["marca"];
-		 $lat_4 = $datos["color"];
-		 $lat_5 = $datos["largo"];
-		 $lat_6 = $datos["ancho"];
-		 $lat_7 = $datos["peso"];
-		 $lat_8 = $datos["tipo"];
-		 $lat_9 = $datos["numCuerdas"];
-		 $lat_10 = $datos["imagen"];
-
-		 
-			   echo	"ID: ".$lat_1  ;
-			   echo "<br>";
-			   echo	"modelo: ".$lat_2  ;
-			   echo "<br>";
-			   echo	"marca: ".$lat_3  ;
-			   echo "<br>";
-			   echo	"color: ".$lat_4  ;
-			   echo "<br>";
-			   echo	"largo: ".$lat_5  ;
-			   echo "<br>";
-			   echo	"ancho: ".$lat_6  ;
-			   echo "<br>";
-			   echo	"peso: ".$lat_7  ;
-			   echo "<br>";
-			   echo	"tipo: ".$lat_8  ;
-			   echo "<br>";
-			   echo	"numCuerdas: ".$lat_9  ;
-			   echo "<br>";
-			   echo	"imagen: ".$lat_10  ;
-			   echo "<br>";
-			   
-		 
-	}
+if(isset($_GET['id'])){
+	$id = $_GET['id'];
+	$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/".$id ;
+	/*  echo "$url"; */
+	 
+	 $json = file_get_contents($url);
+	 $datos = json_decode($json,true);
 
 
+	 $lat_1 = $datos["id"];
+	 $lat_2 = $datos["modelo"];
+	 $lat_3 = $datos["marca"];
+	 $lat_4 = $datos["color"];
+	 $lat_5 = $datos["largo"];
+	 $lat_6 = $datos["ancho"];
+	 $lat_7 = $datos["peso"];
+	 $lat_8 = $datos["tipo"];
+	 $lat_9 = $datos["numCuerdas"];
+	 $lat_10 = $datos["imagen"];
 
-		<header id="header">
-				<div class="center">
-					<!-- Logo-->
-						<img src="assets/images/logo.png" class="app-logo" alt="Logotipo"/>
-						<span id="brand">
-							<strong>Guitarras</strong>API
-						</span>
-					<!-- Menu-->
+	 
+		   echo	"ID: ".$lat_1  ;
+		   echo "<br>";
+		   echo	"modelo: ".$lat_2  ;
+		   echo "<br>";
+		   echo	"marca: ".$lat_3  ;
+		   echo "<br>";
+		   echo	"color: ".$lat_4  ;
+		   echo "<br>";
+		   echo	"largo: ".$lat_5  ;
+		   echo "<br>";
+		   echo	"ancho: ".$lat_6  ;
+		   echo "<br>";
+		   echo	"peso: ".$lat_7  ;
+		   echo "<br>";
+		   echo	"tipo: ".$lat_8  ;
+		   echo "<br>";
+		   echo	"numCuerdas: ".$lat_9  ;
+		   echo "<br>";
+		   echo	"imagen: ".$lat_10  ;
+		   echo "<br>";
+		   
+	 
+}
 
-					<nav id="menu">
-						<ul>
-							<li>
-								<a href="/">Inicio</a>
-							</li>
-							<li>
-								<a href="crear.html">Crear</a>
-							</li>
-							<li>
-								<a href="articles.html">Modificar</a>
-							</li>
-							
-						</ul>
-					</nav>
-					<!-- Limpiar floats-->
-					<div class="clearfix"></div>
-				</div>
-				
-			</header>
+
+?>
 
 		
 		<form method="get" action="">
@@ -103,18 +74,10 @@
 
 	<h2>Hola amigos bolita este es un cambio</h2>
 
-	<!-- <div id="BoxSerch">
-		<form method="post" action="blank">
-			<h2>buscar</h1>
-			<input type="text" name="buscar">
-			<input type="submit" name="buscar">
-			
-		</form>
-		
-	</div> -->
+	
 	
 </body>
 </html>
 
-?>
+
 
