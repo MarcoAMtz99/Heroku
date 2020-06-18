@@ -52,7 +52,7 @@
 				
 			</header>
 			<div id="slidder" class="slider-big">
-				<h1>ESTAMOS EN EL INICIO DE LA PAGINA</h1>
+				<h1>Hola hermosa :3 </h1>
 			</div>
 			<div class="center">
 				<section id="content">
