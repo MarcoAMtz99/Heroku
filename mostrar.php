@@ -34,9 +34,10 @@ echo <<<EOT
 	
 </body>
 </html>
-?>
+
 
 EOT;
+?>
 <?php
 
 	if(isset($_GET['id'])){
@@ -83,8 +84,6 @@ EOT;
 		   
 	 
 }
-
-
 ?>
 
 
