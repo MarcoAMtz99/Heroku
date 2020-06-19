@@ -72,7 +72,8 @@ echo <<<EOT
 EOT;
 ?>
 
-<div style=" text-align: left; margin: 0 auto;">
+<?php
+ echo '<div style=" text-align: left;">' EOT;?>
 
 
 <?php
@@ -120,8 +121,8 @@ EOT;
 		   echo "<br>";		    
 }
 ?>
-</div>
-
+<?php
+ echo '</div>';?>
 <img src="<?php echo $lat_10; ?>">
 
 
