@@ -72,7 +72,7 @@ echo <<<EOT
 EOT;
 ?>
 
-<div style=" text-align: left;">
+<div style=" text-align: left; margin: 0 auto;">
 
 
 <?php
