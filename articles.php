@@ -1,7 +1,7 @@
 <?php	
 
 			echo <<<EOT
-							<form class="mid-form" method="post" action="articles.php"> 
+							<form class="mid-form" method="post" action=""> 
 							<div class="form-group">
 									<label for="Modelo">ID</label>
 									<input type="text" name="id">
