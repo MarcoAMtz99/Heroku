@@ -94,7 +94,7 @@
 				</div>
 					<?php 
 
-					if(isset($_POST['Enviar']) ){
+					if(isset($_POST['Enviar'])){
 					/* 	$id = $_GET['id']; */
 						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
 						/*  echo "$url"; */
@@ -103,16 +103,16 @@
 	 					$datos = json_decode($json,true); */
 
 						echo "Estoy guardadndo los datos dentro";
-						  $lat_1 = $datos["id"];
-							 $lat_2 = $datos["modelo"];
-	 							$lat_3 = $datos["marca"];
-	 								$lat_4 = $datos["color"];
-										 $lat_5 = $datos["largo"];
-	 										$lat_6 = $datos["ancho"];
-												 $lat_7 = $datos["peso"];
-													 $lat_8 = $datos["tipo"];
-	 													$lat_9 = $datos["numCuerdas"];
-	 														$lat_10 = $datos["imagen"];
+						  $lat_1 = $_POST["id"];
+							 $lat_2 = $_POST["modelo"];
+	 							$lat_3 = $_POST["marca"];
+	 								$lat_4 = $_POST["color"];
+										 $lat_5 = $_POST["largo"];
+	 										$lat_6 = $_POST["ancho"];
+												 $lat_7 = $_POST["peso"];
+													 $lat_8 = $_POST["tipo"];
+	 													$lat_9 = $_POST["numCuerdas"];
+	 														$lat_10 = $_POST["imagen"];
 
 							$postData = array(
 							'$id' => $lat_1 ,
