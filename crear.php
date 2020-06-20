@@ -91,7 +91,7 @@
 
 				</div>
 					<?php 
-					if(isset($_POST['id'])){
+					if(isset(!IsEmpity($_POST['id']))){
 					/* 	$id = $_GET['id']; */
 						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
 						/*  echo "$url"; */
