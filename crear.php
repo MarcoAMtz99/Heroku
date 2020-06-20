@@ -41,7 +41,7 @@
 
 						<!-- Listado de guitarras-->
 							<h1 class="subheader">Formulario</h1>
-							<form class="mid-form">
+							<form class="mid-form" method="POST">
 							<div class="form-group">
 									<label for="Modelo">ID</label>
 									<input type="text" name="id">
@@ -91,7 +91,7 @@
 
 				</div>
 					<?php 
-					if(!IsEmpity($_POST['id']) ){
+					if(isset($_POST['Enviar']) ){
 					/* 	$id = $_GET['id']; */
 						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
 						/*  echo "$url"; */
