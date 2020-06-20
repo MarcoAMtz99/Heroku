@@ -41,7 +41,9 @@
 
 						<!-- Listado de guitarras-->
 							<h1 class="subheader">Formulario</h1>
-							<form class="mid-form" method="POST">
+
+
+							<form class="mid-form" method="POST" action=""> 
 							<div class="form-group">
 									<label for="Modelo">ID</label>
 									<input type="text" name="id">
