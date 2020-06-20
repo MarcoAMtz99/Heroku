@@ -86,7 +86,7 @@
 										<div class='image-wrap'>
 										<img src='$imagen' alt='$marca'>
 									</div>
-									<h2>Guitarra de prueba</h2>
+									<h3 style ='margin-bottom: 2px;'>$modelo</h3>
 									<span class='date'>
 										id: $id  <br>
 										marca: $marca <br>
