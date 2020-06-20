@@ -75,7 +75,7 @@
 								 $lat_9 = $datos["numCuerdas"];
 								 $lat_10 = $datos["imagen"];
 							
-								 
+								 		print $datos ;
 									   echo	"ID: ".$lat_1  ; 
 									   echo "<br>";
 									   echo	"modelo: ".$lat_2  ;
