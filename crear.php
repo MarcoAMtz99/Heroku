@@ -33,7 +33,6 @@
 					</nav>
 					<!-- Limpiar floats-->
 					<div class="clearfix"></div>
-				</div>
 				
 			</header>
 			
@@ -43,6 +42,10 @@
 						<!-- Listado de guitarras-->
 							<h1 class="subheader">Formulario</h1>
 							<form class="mid-form">
+							<div class="form-group">
+									<label for="Modelo">ID</label>
+									<input type="text" name="id">
+								</div>
 								<div class="form-group">
 									<label for="Modelo">Modelo</label>
 									<input type="text" name="Modelo">
@@ -79,16 +82,59 @@
 								<div class="form-group">
 									<label for="NumCuerdas">Numero de cuerdas</label>
 									<input type="text" name="NumCuerdas">
+									<label for="NumCuerdas">Imagen url</label>
+									<input type="text" name="imagen">
 								</div>
 								<input type="submit" value="Enviar" class="btn btn-success">
 							</form>
 				</section>
+
+				</div>
+					<?php 
+					if(isset($_POST['id'])){
+					/* 	$id = $_GET['id']; */
+						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
+						/*  echo "$url"; */
+	 
+	 					$json = file_get_contents($url);
+	 					$datos = json_decode($json,true);
+
+
+						 $lat_1 = $datos["id"];
+							 $lat_2 = $datos["modelo"];
+	 							$lat_3 = $datos["marca"];
+	 								$lat_4 = $datos["color"];
+										 $lat_5 = $datos["largo"];
+	 										$lat_6 = $datos["ancho"];
+												 $lat_7 = $datos["peso"];
+													 $lat_8 = $datos["tipo"];
+	 													$lat_9 = $datos["numCuerdas"];
+	 														$lat_10 = $datos["imagen"];
+
+						$postData = array(
+							'$id' => $lat_1 ,
+							'marca' =>$lat_3 ,
+							'modelo' => $lat_2,
+							'color' => $lat_4 ,
+							'peso' => $lat_7,
+							'largo' => $lat_5 ,
+							'ancho' => $lat_6,
+							'numCuerdas' => $lat_9,
+							'imagen' => $lat_10
+							);
+
+
+							echo $postData;
+						
+					}
+								
+					?>
 							
 
 				<aside id="sidebar">
 					<div id="nav-blog" class="sidebar-item">
 						<h3>Puedes hacer esto</h3>
-						<a href="#" class="btn btn-success">Crear guitarra</a>	
+						<a href="crear.php" class="btn btn-success">Crear guitarra</a>	
 					</div>
 
 					<div id="serch" class="sidebar-item">
