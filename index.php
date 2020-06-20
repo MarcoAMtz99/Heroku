@@ -87,7 +87,7 @@
 										<img src='$imagen' alt='$marca'>
 									</div>
 									<h3 style ='margin-bottom: 2px;'>$modelo</h3>
-									<span class='date'>
+									<span class='date' style='font-size:10px;'>
 										id: $id  <br>
 										marca: $marca <br>
 										modelo: $modelo <br>
