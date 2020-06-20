@@ -1,5 +1,64 @@
+<?php	
+
+			echo <<<EOT
+							<form class="mid-form" method="post" action="articles.php"> 
+							<div class="form-group">
+									<label for="Modelo">ID</label>
+									<input type="text" name="id">
+								</div>
+								<div class="form-group">
+									<label for="Modelo">Modelo</label>
+									<input type="text" name="Modelo">
+								</div>
+								<div class="form-group">
+									<label for="Marca">Marca</label>
+									<input type="text" name="Marca">
+								</div>
+								<div class="form-group">
+									<label for="Color">Color</label>
+									<input type="text" name="Color">
+								</div>
+								<div class="form-group">
+									<label for="Largo">Largo</label>
+									<input type="text" name="Largo">
+								</div>
+								<div class="form-group">
+									<label for="Ancho">Ancho</label>
+									<input type="text" name="Ancho">
+								</div>
+								<div class="form-group">
+									<label for="Peso">Peso</label>
+									<input type="text" name="Peso">
+								</div>
+								<div class="form-group radiobuttons">
+									
+									<input type="radio" name="Tipo" value="Acustica">Acustica 
+									<input type="radio" name="Tipo" value="Electrica">Electrica 
+									<input type="radio" name="Tipo" value="Electroacustica">Electroacustica 
+
+								</div>
+								<div class="clearfix"></div>
+								
+								<div class="form-group">
+									<label for="NumCuerdas">Numero de cuerdas</label>
+									<input type="text" name="NumCuerdas">
+									<label for="NumCuerdas">Imagen url</label>
+									<input type="text" name="imagen">
+								</div>
+								<input type="submit" value="Enviar" class="btn btn-success">
+							</form>
+
+
+EOT;
+?>
+
+
+
+
+
+
 <?php 
-					$lat_1 = $_POST["id"];
+					$lat_1 = $_POST['id'];
 					$lat_2 = $_POST["modelo"];
 						$lat_3 = $_POST["marca"];
 							$lat_4 = $_POST["color"];
