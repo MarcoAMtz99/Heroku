@@ -102,7 +102,7 @@
 	 					$datos = json_decode($json,true); */
 
 							echo "Estoy guardadndo los datos";
-						/*  $lat_1 = $datos["id"];
+						  $lat_1 = $datos["id"];
 							 $lat_2 = $datos["modelo"];
 	 							$lat_3 = $datos["marca"];
 	 								$lat_4 = $datos["color"];
@@ -123,7 +123,7 @@
 							'ancho' => $lat_6,
 							'numCuerdas' => $lat_9,
 							'imagen' => $lat_10
-							); */
+							); 
 
 
 							
