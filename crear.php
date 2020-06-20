@@ -99,7 +99,7 @@
 	 					$json = file_get_contents($url);
 	 					$datos = json_decode($json,true);
 
-
+							echo "Estoy guardadndo los datos"
 						 $lat_1 = $datos["id"];
 							 $lat_2 = $datos["modelo"];
 	 							$lat_3 = $datos["marca"];
