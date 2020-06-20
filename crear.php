@@ -124,10 +124,10 @@
 							);
 
 
-							echo $postData;
+							
 						
-					}
-								
+					}	
+						print_r($postData);		
 					?>
 							
 

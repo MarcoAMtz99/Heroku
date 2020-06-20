@@ -28,7 +28,7 @@ echo <<<EOT
 								<a href="/">Inicio</a>
 							</li>
 							<li>
-								<a href="crear.html">Crear</a>
+								<a href="crear.php">Crear</a>
 							</li>
 							<li>
 								<a href="articles.html">Modificar</a>
