@@ -96,11 +96,11 @@
 						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
 						/*  echo "$url"; */
 	 
-	 					$json = file_get_contents($url);
-	 					$datos = json_decode($json,true);
+	 				/* 	$json = file_get_contents($url);
+	 					$datos = json_decode($json,true); */
 
 							echo "Estoy guardadndo los datos";
-						 $lat_1 = $datos["id"];
+						/*  $lat_1 = $datos["id"];
 							 $lat_2 = $datos["modelo"];
 	 							$lat_3 = $datos["marca"];
 	 								$lat_4 = $datos["color"];
@@ -121,13 +121,15 @@
 							'ancho' => $lat_6,
 							'numCuerdas' => $lat_9,
 							'imagen' => $lat_10
-							);
+							); */
 
 
 							
 						
 					}	
-						print_r($postData);		
+						print_r($postData);	
+						
+						echo "Estoy guardadndo los datos";
 					?>
 							
 
