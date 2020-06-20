@@ -64,40 +64,49 @@
 						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
 							$json = file_get_contents($url);
 								 $datos = json_decode($json,true);
-								 $lat_1 = $datos["id"];
-								 $lat_2 = $datos["modelo"];
-								 $lat_3 = $datos["marca"];
-								 $lat_4 = $datos["color"];
-								 $lat_5 = $datos["largo"];
-								 $lat_6 = $datos["ancho"];
-								 $lat_7 = $datos["peso"];
-								 $lat_8 = $datos["tipo"];
-								 $lat_9 = $datos["numCuerdas"];
-								 $lat_10 = $datos["imagen"];
-							
-								 		print $datos[] ;
-									   echo	"ID: ".$lat_1  ; 
-									   echo "<br>";
-									   echo	"modelo: ".$lat_2  ;
-									   echo "<br>";
-									   echo	"marca: ".$lat_3  ;
-									   echo "<br>";
-									   echo	"color: ".$lat_4  ;
-									   echo "<br>";
-									   echo	"largo: ".$lat_5  ;
-									   echo "<br>";
-									   echo	"ancho: ".$lat_6  ;
-									   echo "<br>";
-									   echo	"peso: ".$lat_7  ;
-									   echo "<br>";
-									   echo	"tipo: ".$lat_8  ;
-									   echo "<br>";
-									   echo	"numCuerdas: ".$lat_9  ;
-									   echo "<br>";
-									  /*  echo	"imagen: ".$lat_10  ; */
-									   echo "<br>";		   
-					
+								
+											print_r($datos);
+						
 					?>
+							<article class="article-item" id="article-template">
+
+							<?php 
+							
+								foreach($datos as $key => $value){
+										$id = $value['id'];
+										$modelo = $value['modelo'];
+										$marca = $marca['marca'];
+										$imagen =  $value['imagen'];
+										$color = $value['color'];
+										$largo = $value['largo'];
+										$ancho= $value['ancho'];
+										$peso = $value['peso'];
+
+										echo "
+										<div class='image-wrap'>
+										<img src='$imagen' alt='$marca'>
+									</div>
+									<h2>Guitarra de prueba</h2>
+									<span class='date'>
+										id: $id  <br>
+										marca: $marca <br>
+										modelo: $modelo <br>
+										largo: $largo <br>
+										ancho: $ancho <br>
+										peso: $peso <br>
+										color: $color <br>
+									</span>
+									<div class='clearfix'></div>
+															
+										";
+
+
+								}
+							?>
+
+							<!--  -->
+						</article>	
+
 
 					</div>
 							
