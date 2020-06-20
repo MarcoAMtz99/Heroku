@@ -5,7 +5,7 @@
 		<title>Guitarras</title>
 		<!-- Hola de estilos-->
 		<link rel="stylesheet" href="css/styles.css">
-							<script  type="text/javascript">	
+							<!-- <script  type="text/javascript">	
 								window.addEventListener("load",function(event){
 									var template = document.getElementById("article-template");
 								
@@ -19,7 +19,7 @@
 
 								}
 								});
-							</script>
+							</script> -->
 
 	</head>
 		<body>
@@ -65,7 +65,7 @@
 							$json = file_get_contents($url);
 								 $datos = json_decode($json,true);
 								
-											print_r($datos);
+											/* print_r($datos); */
 						
 					?>
 							<article class="article-item" id="article-template">
