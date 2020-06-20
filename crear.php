@@ -43,7 +43,7 @@
 							<h1 class="subheader">Formulario</h1>
 
 
-							<form class="mid-form" method="post" action="blank"> 
+							<form class="mid-form" method="post" action="articles.php"> 
 							<div class="form-group">
 									<label for="Modelo">ID</label>
 									<input type="text" name="id">
