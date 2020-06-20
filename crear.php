@@ -43,7 +43,7 @@
 							<h1 class="subheader">Formulario</h1>
 
 
-							<form class="mid-form" method="POST" action=""> 
+							<form class="mid-form" method="POST" action="crear.php"> 
 							<div class="form-group">
 									<label for="Modelo">ID</label>
 									<input type="text" name="id">
@@ -93,6 +93,7 @@
 
 				</div>
 					<?php 
+
 					if(isset($_POST['Enviar']) ){
 					/* 	$id = $_GET['id']; */
 						$url = "https://thawing-caverns-82463.herokuapp.com/guitarras/" ;
@@ -113,7 +114,7 @@
 	 													$lat_9 = $datos["numCuerdas"];
 	 														$lat_10 = $datos["imagen"];
 
-						$postData = array(
+							$postData = array(
 							'$id' => $lat_1 ,
 							'marca' =>$lat_3 ,
 							'modelo' => $lat_2,
