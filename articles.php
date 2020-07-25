@@ -58,7 +58,7 @@ EOT;
 
 
 <?php 
-					$lat_1 = $_POST['id'];
+				$lat_1 = $_POST['id'];
 					$lat_2 = $_POST["modelo"];
 						$lat_3 = $_POST["marca"];
 							$lat_4 = $_POST["color"];
@@ -68,6 +68,29 @@ EOT;
 											$lat_8 = $_POST["tipo"];
 												$lat_9 = $_POST["numCuerdas"];
 													$lat_10 = $_POST["imagen"];
+
+
+
+
+													
+		   echo	"ID: ".$lat_1  ; 
+		   echo "<br>";
+		   echo	"modelo: ".$lat_2  ;
+		   echo "<br>";
+		   echo	"marca: ".$lat_3  ;
+		   echo "<br>";
+		   echo	"color: ".$lat_4  ;
+		   echo "<br>";
+		   echo	"largo: ".$lat_5  ;
+		   echo "<br>";
+		   echo	"ancho: ".$lat_6  ;
+		   echo "<br>";
+		   echo	"peso: ".$lat_7  ;
+		   echo "<br>";
+		   echo	"tipo: ".$lat_8  ;
+		   echo "<br>";
+		   echo	"numCuerdas: ".$lat_9  ;
+		   echo "<br>";
 
 				   $postData = array(
 				   '$id' => $lat_1 ,
@@ -91,10 +114,7 @@ EOT;
 	 					$datos = json_decode($json,true); */
 
 						echo "Estoy guardadndo los datos dentro";
-						  
-
-							
-						
+	
 					}	
 						var_dump($postData);	
 						
